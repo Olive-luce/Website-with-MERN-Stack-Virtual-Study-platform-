@@ -1,0 +1,44 @@
+.help-page {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+
+.help-page.animate{
+  animation: helpEnter 420ms ease-out;
+}
+
+@keyframes helpEnter{
+  from{ opacity: 0; transform: translateY(12px); }
+  to{ opacity: 1; transform: translateY(0); }
+}
+
+.help-section {
+  margin-bottom: 40px;
+  background: tomato;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.help-section h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #0f0e0e;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}

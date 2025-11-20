@@ -1,0 +1,12 @@
+.infopanel{
+    width: 100%;
+    height: auto;
+    background:url('/infobg1.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 10px;;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+}
